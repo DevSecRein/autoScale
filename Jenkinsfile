@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/bleeng089/autoScale.git' 
+                git branch: 'main', url: 'https://github.com/DevSecReub/autoScale.git' 
             }
         }
         stage('Initialize Terraform') {
